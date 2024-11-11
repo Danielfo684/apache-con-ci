@@ -26,5 +26,4 @@ jobs:
                 push: true
                 tags: |
                   ${{ secrets.DOCKERHUB_USERNAME }}/docker-github-actions:latest
-                  ${{ secrets.DOCKERHUB_USERNAME }}/docker-github-actions:${{ 
-                  github.sha }}
+                  ${{ secrets.DOCKERHUB_USERNAME }}/docker-github-actions:${{ github.sha }}
