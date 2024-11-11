@@ -3,8 +3,6 @@ name: Construir Imagen y subirla a DockerHub
 on: 
     push:
         branches: [ "main" ]
-    pull_request:
-        branches: [ "main" ]
 
 jobs: 
     build:
